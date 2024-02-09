@@ -27,7 +27,7 @@ class lista_tareas(models.Model):
     fecha_hora_asignada = fields.Datetime(string="Fecha y Hora Asignada")
     fecha_hora_stop = fields.Datetime(string="Fecha de resolución")
     
-    portada = fields.Image(string="Portada tarea", max_width=120, max_height=120)
+    portada = fields.Image(string="Portada tarea", max_width=130, max_height=130)
 
 
     #Este es un ejemplo de "valor computado." Este computo depende de la variable prioridad.
